@@ -17,7 +17,7 @@ public class SeleniumLearning1Basic {
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://demo.automationtesting.in/");
-        driver.findElement(By.id("email")).sendKeys("mrgsathyaraj12@gmail.com");
+        driver.findElement(By.id("email")).sendKeys("mrgsathyaraj123@gmail.com");
         driver.findElement(By.id("enterimg")).click();
         String PageTitle =  driver.getTitle();
 
