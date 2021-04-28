@@ -5,7 +5,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.support.ui.Select;
 
 public class SeleniumLearning1Basic {
@@ -16,9 +15,8 @@ public class SeleniumLearning1Basic {
         //Login or Register Init the Page
 
         WebDriver driver = new ChromeDriver();
-        driver.get("http://demo.automationtesting.in/");
-        driver.findElement(By.id("email")).sendKeys("mrgsathyaraj123@gmail.com");
-        driver.findElement(By.id("enterimg")).click();
+        driver.get("http://demo.automationtesting.in/Register.html");
+
         String PageTitle =  driver.getTitle();
 
         //Register User
